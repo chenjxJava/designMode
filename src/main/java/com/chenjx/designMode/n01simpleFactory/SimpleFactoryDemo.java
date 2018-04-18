@@ -1,4 +1,4 @@
-package com.chenjx.designMode.simpleFactory;
+package com.chenjx.designMode.n01simpleFactory;
 
 /**
  * @Author: chenjx
@@ -10,10 +10,15 @@ public class SimpleFactoryDemo {
 
 	public static void main(String[] args) {
 		//
-		Operation operation = OperationFactory.createOperation('+');
+		Operation operation = OperationFactory.createOperation('*');
 		operation.set_numberA(120);
-		operation.set_numberB(50);
-		int result = operation.getResult();
+		operation.set_numberB(2);
+		int result = 0;
+		try {
+			result = operation.getResult();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		System.out.println(result);
 
 	}

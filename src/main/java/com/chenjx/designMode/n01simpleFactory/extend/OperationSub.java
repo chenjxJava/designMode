@@ -1,6 +1,6 @@
-package com.chenjx.designMode.simpleFactory.extend;
+package com.chenjx.designMode.n01simpleFactory.extend;
 
-import com.chenjx.designMode.simpleFactory.Operation;
+import com.chenjx.designMode.n01simpleFactory.Operation;
 
 /**
  * @Author: chenjx
@@ -12,6 +12,6 @@ public class OperationSub extends Operation {
 
 	@Override
 	public int getResult() {
-		return super.getResult();
+		return get_numberA() - get_numberB();
 	}
 }

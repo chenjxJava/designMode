@@ -1,6 +1,6 @@
-package com.chenjx.designMode.simpleFactory.extend;
+package com.chenjx.designMode.n01simpleFactory.extend;
 
-import com.chenjx.designMode.simpleFactory.Operation;
+import com.chenjx.designMode.n01simpleFactory.Operation;
 
 /**
  * @Author: chenjx
@@ -11,7 +11,10 @@ import com.chenjx.designMode.simpleFactory.Operation;
 public class OperationDiv extends Operation {
 
 	@Override
-	public int getResult() {
-		return super.getResult();
+	public int getResult() throws Exception {
+		if(get_numberB() == 0) {
+			throw new Exception("除数不能为0！");
+		}
+		return get_numberA() / get_numberB();
 	}
 }

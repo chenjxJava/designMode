@@ -1,4 +1,4 @@
-package com.chenjx.designMode.simpleFactory;
+package com.chenjx.designMode.n01simpleFactory;
 
 /**
  * @Author: chenjx
@@ -26,7 +26,7 @@ public class Operation {
 		this._numberB = _numberB;
 	}
 
-	public int getResult() {
+	public int getResult() throws Exception {
 		int result = 0;
 		return result;
 	}
