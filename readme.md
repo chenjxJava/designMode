@@ -3,6 +3,7 @@
 
 > 二、三参考：[java设计模式--观察者模式和事件监听器模式](http://blog.csdn.net/dongnan591172113/article/details/8771441)<hr>
 ### 二、观察者模式
+[JAVA设计模式之观察者模式](https://www.cnblogs.com/luohanguo/p/7825656.html)
 > 　观察者模式又称为订阅—发布模式，在此模式中，一个目标对象管理所有相依于它的观察者对象，并且在它本身的状态改变时主动发出通知。这通常透过呼叫各观察者所提供的方法来实现。此种模式通常被用来事件处理系统。。<br>　
 基于事件驱动机制的系统或语言，比如node.js、nio等，不难发现其最终的基础模式就是观察者模式，只是不同的应用场景，也会有各自不同的侧重。
 
@@ -63,7 +64,6 @@ public interface Observer {
 ps:vector相关<br>
 [　1.Vector菜鸟教程](http://www.runoob.com/java/java-vector-class.html)<br>
 [　2.Java中vector的使用详解](https://www.cnblogs.com/zhaoyan001/p/6077492.html)
-
 ### 三、监听模式
 > 事件源经过事件的封装传给监听器，当事件源触发事件后，监听器接收到事件对象可以回调事件的方法。<br>
 
