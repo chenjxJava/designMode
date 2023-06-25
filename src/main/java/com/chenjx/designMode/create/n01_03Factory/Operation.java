@@ -1,4 +1,4 @@
-package com.chenjx.designMode.create.n01simpleFactory;
+package com.chenjx.designMode.create.n01_03Factory;
 
 /**
  * @Author: chenjx

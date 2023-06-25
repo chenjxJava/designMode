@@ -1,9 +1,9 @@
-package com.chenjx.designMode.create.n01simpleFactory;
+package com.chenjx.designMode.create.n01_03Factory;
 
-import com.chenjx.designMode.create.n01simpleFactory.extend.OperationDiv;
-import com.chenjx.designMode.create.n01simpleFactory.extend.OperationMul;
-import com.chenjx.designMode.create.n01simpleFactory.extend.OperationSub;
-import com.chenjx.designMode.create.n01simpleFactory.extend.OperationAdd;
+import com.chenjx.designMode.create.n01_03Factory.extend.OperationDiv;
+import com.chenjx.designMode.create.n01_03Factory.extend.OperationMul;
+import com.chenjx.designMode.create.n01_03Factory.extend.OperationSub;
+import com.chenjx.designMode.create.n01_03Factory.extend.OperationAdd;
 
 /**
  * @Author: chenjx
