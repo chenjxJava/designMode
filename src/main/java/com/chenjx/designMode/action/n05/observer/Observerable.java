@@ -1,4 +1,4 @@
-package com.chenjx.designMode.n02observer;
+package com.chenjx.designMode.action.n05.observer;
 
 /**
  * create by chenjx 2018/8/16

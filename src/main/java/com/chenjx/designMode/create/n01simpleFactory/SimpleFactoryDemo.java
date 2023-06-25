@@ -1,4 +1,4 @@
-package com.chenjx.designMode.n01simpleFactory;
+package com.chenjx.designMode.create.n01simpleFactory;
 
 /**
  * @Author: chenjx
@@ -11,8 +11,8 @@ public class SimpleFactoryDemo {
 	public static void main(String[] args) {
 		//
 		Operation operation = OperationFactory.createOperation('*');
-		operation.set_numberA(120);
-		operation.set_numberB(2);
+		operation.setNumberA(120);
+		operation.setNumberB(2);
 		int result = 0;
 		try {
 			result = operation.getResult();

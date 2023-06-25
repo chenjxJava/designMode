@@ -1,8 +1,9 @@
-package com.chenjx.designMode.n01simpleFactory;
+package com.chenjx.designMode.create.n01simpleFactory;
 
-import com.chenjx.designMode.n01simpleFactory.extend.OperationAdd;
-import com.chenjx.designMode.n01simpleFactory.extend.OperationDiv;
-import com.chenjx.designMode.n01simpleFactory.extend.OperationMul;
+import com.chenjx.designMode.create.n01simpleFactory.extend.OperationDiv;
+import com.chenjx.designMode.create.n01simpleFactory.extend.OperationMul;
+import com.chenjx.designMode.create.n01simpleFactory.extend.OperationSub;
+import com.chenjx.designMode.create.n01simpleFactory.extend.OperationAdd;
 
 /**
  * @Author: chenjx
@@ -21,7 +22,7 @@ public class OperationFactory {
 				operation = new OperationAdd();
 				break;
 			case '-':
-				operation = new OperationAdd();
+				operation = new OperationSub();
 				break;
 			case '*':
 				operation = new OperationMul();

@@ -1,6 +1,6 @@
-package com.chenjx.designMode.n01simpleFactory.extend;
+package com.chenjx.designMode.create.n01simpleFactory.extend;
 
-import com.chenjx.designMode.n01simpleFactory.Operation;
+import com.chenjx.designMode.create.n01simpleFactory.Operation;
 
 /**
  * @Author: chenjx
@@ -12,9 +12,9 @@ public class OperationDiv extends Operation {
 
 	@Override
 	public int getResult() throws Exception {
-		if(get_numberB() == 0) {
+		if(getNumberB() == 0) {
 			throw new Exception("除数不能为0！");
 		}
-		return get_numberA() / get_numberB();
+		return getNumberA() / getNumberB();
 	}
 }
